@@ -191,6 +191,14 @@ section{
     background: var(--main-color);
     color: var(--bg-color)
 }
+
+header {
+    background: #1b1rgba(27, 31, 36, 0.389)
+    box-shadow: 0 .1rem 1rem 1rem rgba(0,0,0,.2);
+    padding: 16px 16%;
+    backdrop-filter: blur(10px); /* Add this line */
+}
+
 header.sticky{
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem 1rem rgba(0,0,0,.2);
@@ -202,11 +210,12 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1rem;
+    gap: 5rem;
+    /* border: solid thin #fff; */
 }
 .about-img img{
     width: 100%;
-    height: 530px;
+    /* height: 530px; */
     max-width: 530px;
     border-radius: 50%;
     object-fit: cover;
