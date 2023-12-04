@@ -15,6 +15,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script&family=Inter:wght@300;400;500;600;700;800;900&family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 
 
 
@@ -24,13 +27,13 @@
 
     <!-- header-->
     <header>
-        <a href ='#' class="logo"> Developer <span> X.</span></a>
-        <div class =" bx bx-menu" id = "menu-icon"></div>
+        <a href ='#' class="logo"> Dark <span> X.</span></a>
+        <div class ="bx bx-menu" id = "menu-icon"></div>
         <ul class ="navlist">
             <li><a href ="#home">Home</a></li>
             <li><a href ="#about">About</a></li>
             <li><a href ="#services">Services</a></li>
-            <li><a href ="#portfolio">Portfolio</a></li>
+            <li><a href ="#portfolio">Certifications</a></li>
             <li><a href ="#contact">Contact</a></li>
 
         </ul>
@@ -40,7 +43,7 @@
     </header>
     <!-- hero-->
     <section class ="hero" id ="home">
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-in">
             <h4> Hi, There!</h4>
             <h1> I'm <span>Srijani M</span></h1>
             <p> Cyber security Engineer with a wide skill set in different IT domain, cloud enthusiast with strong development skills on AWS Services. I also keep learning new technologies  have wide knowledge in software, IT infrastructure cloud, and DevOps, to keep the IT infrastucture and different technologies secure.</p>
@@ -64,10 +67,10 @@
 
      <!-- about-->
      <section class = "about" id = "about"> 
-        <div class ="about-img">
+        <div class ="about-img" data-aos="zoom-in-down">
             <img src="img/background__upscaled.png" >
         </div>
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-up">
             <h2> I am a <span>Security Architecture</span> <br> & Threat Intelligence</h2>
             <div class="exp-area">
                 <p class="exp">
@@ -98,10 +101,10 @@
      </section>
       <!-- hackathons -->
       <section class="services" id="services">
-        <div class = "center-text">
+        <div class = "center-text" data-aos="fade-down">
             <h2>My <span>Services</span></h2>
         </div>
-        <div class="services-content">
+        <div class="services-content" data-aos="zoom-in-up">
             <div class="box">
                 <!-- <img src ="img/icons8-ui-ux-design-30.png">  -->
                 <h3>UI/UX Design</h3>
@@ -131,8 +134,109 @@
         </div>
       </section>
 
+      <!-- portfolio-->
+      <section class="portfolio" id = "portfolio">
+        <div class = "center-text" data-aos="fade-down">
+            <h2>My <span>Certifications</span></h2>
+        </div>
+        <div class="Portfolio-content" data-aos="zoom-in-up">
+            <div class="row">
+                <img src="img/IoT.jpg" >
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+                <h4> Website development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/choss.jpg" >
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+                <h4> Website development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/tech_vision.jpg" >
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+                <h4> Website development For Dark X</h4>
+            </div>
+
+            <div class="row">
+                <img src="img/re_waste.jpg" >
+                <div class="main-row">
+                    <div class="row-text">
+                        <h5>Website Design</h5>
+
+                    </div>
+                    <div class="row-icon">
+                        <i class="ri-linkedin-fill"></i>
+                    </div>
+                </div>
+                <h4> Website development For Dark X</h4>
+            </div>
+
+        </div>
+
+
+      </section>
+
+      <!--contact-->
+      <section class="contact" id="contact">
+        <div class = "center-text" data-aos="fade-down">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="contact-form" data-aos="zoom-in">
+            <form action="">
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Email Address.." required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                <input type="Submit" name="" value="Send Message" class="send-btn">
+            </form>
+
+        </div>
+
+      </section>
+      <div class="footer">
+        <div class="copyright">
+            <p>2023 Srijani M, All Rights Reserved.</p>
+        </div>
+        <a href="#home" class="scroll-top">
+            <i class="ri-arrow-up-s-fill"></i>
+        </a>
+
+      </div>
+
     <!-- js link-->
     <script src = js/script.js> </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400
+      });
+    </script>
     
 </body>
 </html>
