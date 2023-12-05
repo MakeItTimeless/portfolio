@@ -397,8 +397,9 @@ form .send-btn{
     border-radius: 8px;
     font-size: 15px;
     font-weight: 600;
-    transition: all .50sec ease;
+    transition: all .50s ease;
     width: 30%;
+    transform: scale(1);
 }
 form .send-btn:hover{
     background-color: transparent;
