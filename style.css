@@ -93,7 +93,7 @@ section{
 }
 .hero{
     height: 100vh;
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -103,8 +103,10 @@ section{
 
 .hero .main-content {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
+    /* padding-top: 100px; */
     /* gap: 30px; */
 }
 
@@ -117,6 +119,16 @@ section{
     right: 20px;
     bottom: 0px;
     width: 590px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-image {
+        /* position: relative; */
+        filter: blur(10px);
+        width: 70%;
+        opacity: 0.5;
+    }
 }
 
 .profile-image img {
