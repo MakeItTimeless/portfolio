@@ -12,9 +12,9 @@
 }
 :root{
     --text-color: #fff;
-    --bg-color: #1b1f24;
-    --second-bg-color: #22282f;
-    --main-color: #13bbff;
+    --bg-color: #000000;
+    --second-bg-color: #151515;
+    --main-color: #69ff28c6;
     --other-color: #c3cad5;
 
     --h1-font: 4.5rem;
@@ -272,7 +272,7 @@ header.sticky{
 }
 .box{
     padding: 80px 40px 66px;
-    background-color: #2d343f;
+    background-color: #020202;
     border-radius: 28px;
     border: 1px solid transparent;
     /* box-shadow: 0 0 50px var(--main-color); */
@@ -426,7 +426,7 @@ form .send-btn:hover{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background:#075fe4 ;
+    background:#5cf24fdb ;
     width: 45px;
     height: 45px;
     border-radius: 50%;
