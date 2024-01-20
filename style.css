@@ -664,14 +664,8 @@ form .send-btn:hover{
     align-items: center;
     transition: .5s;
 }
+.coding-icon{
+    width: 50px;
+    
+}
 
-.interest-box{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
-    align-items: center;
-    gap: 2.3rem;
-    margin-top: 4.2rem;
-}
-.interest{
-    text-align: center;
-}
