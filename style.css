@@ -218,7 +218,7 @@ header.sticky{
 }
 
 .about{
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -560,4 +560,118 @@ form .send-btn:hover{
         object-fit: cover;
         margin: 0 auto;
     }
+}
+@media screen and (max-width: 990px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2rem 50px;
+    }
+}
+@media screen and (max-width: 650px){
+    .container{
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+.coding{
+    background-color: var(--bg-color);
+}
+.inner{
+    padding-top : 20px;
+}
+.headerss{
+    text-align: center;
+    color: var(--text-color);
+    padding: 1rem;
+    position: relative;
+}
+.headerss:after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: var(--main-color);
+    border-radius: 2px;
+
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+
+}
+.coding-box{
+    padding:1rem;
+    color:var(--text-color);
+    cursor: pointer;
+}
+.coding-box:hover>coding-title:after, .coding-box:hover>coding-title:before{
+    width:35px
+}
+.coding-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+
+}
+.coding-box:hover .img{
+    transform:translateY(-10px);
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 50px var(--main-color);
+    
+}
+.coding-title:after{
+    content: ' ' ;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: var(--bg-color);
+    transition:.5s;
+}
+.coding-title:before{
+    content: ' ' ;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: var(--bg-color);
+    transition:.5s;
+}
+.img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: var(--other-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.interest-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+.interest{
+    text-align: center;
 }
