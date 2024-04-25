@@ -267,8 +267,8 @@ header.sticky{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
     align-items: center;
-    gap: 2.3rem;
-    margin-top: 4.2rem;
+    gap: 2.5rem;
+    margin-top: 3.5rem;
 }
 .box{
     padding: 80px 40px 66px;
