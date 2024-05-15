@@ -23,8 +23,12 @@
 }
 
 a.project {
-  color: var(--main-color);
-  text-decoration: underline;
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  margin: 0px 10px;
 }
 
 body {
