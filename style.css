@@ -22,7 +22,7 @@
   --p-font: 1.2rem;
 }
 
-a {
+a.project {
   color: var(--main-color);
   text-decoration: underline;
 }
